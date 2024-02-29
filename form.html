@@ -1,0 +1,43 @@
+<!-- Created by Muallim -->
+
+  <!Doctype html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+	<link rel="stylesheet" href="stylee.css">
+	</head>
+	<body>
+	 <script src="index.js"></script>
+	  <div class="container">
+	  <div class="main">
+	    <h1>Age Calculator</h1>
+		<p style="color: #fff; font-size: 30px;">Enter your date of birth to see your ages.</p>
+      </div><br>
+	  <div class="box_age">
+	    <h4>Day</h4>
+		<input type="text" placeholder="DD" 
+	minlength="1" maxlength="2" id="date" required>
+	  </div><br>
+	  <div class="box_age">
+	     <h4>Month</h4>
+		 <input type="text" placeholder="MM"
+	minlength="1" maxlength="2" id="month" required>
+	  </div><br>
+	  <div class="box_age">
+	      <h4>Year</h4>
+		  <input type="text" placeholder="YYYY"
+	minlength="4" maxlength="4" id="year" required>
+	   </div><br>
+	   <div class="age_info">
+	      <button onclick="age()">Submit</button>
+	   </div>
+	   <h3 id="total"></h3>
+	   <footer style="color: #fff; margin-top: 30px; margin-bottom: 0px;">
+		&copy; <i>2024 Muallim2000</i>
+	   </footer> 
+  </div>  
+  </body>
+  </html>
